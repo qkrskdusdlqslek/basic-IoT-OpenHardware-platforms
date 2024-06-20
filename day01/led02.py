@@ -3,7 +3,7 @@
 
  red_led = 21
  blue_led = 5
- green_led = 6
+ green_led = 26
 
  #GPIO를 BCM모드로 설정
  GPIO.setmode(GPIO.BCM)
