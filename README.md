@@ -59,6 +59,20 @@ IoT 개발자과정 라즈베리파이 리포지토리
         ```
 
 ## 2일차
+- 실습
+    - 손 동작 센서 -> pir01.py
+    - 가상환경
+        - python -m venv 파일명 (가상환경 생성)
+        - source ./파일명/bin/activate (가상환경 들어가는 법)
+        - deactivate(가상환경 나오는 법)
+        - pip install RPi.GPIO
+    
+    - 손 동작 센서 응용
+        - 손이 감지되면 LED 불 켜기 -> pri02.py
+
+    - 초음파 센서
+        - 초음파 센서 동작 -> ultra01.py
+        - 초음파 센서 제어 (차량 후방감지센서) -> ultra02.py
 
 
 
