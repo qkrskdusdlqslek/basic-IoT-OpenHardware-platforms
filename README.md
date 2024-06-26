@@ -38,6 +38,8 @@ IoT 개발자과정 라즈베리파이 리포지토리
 	    - time.sleep(secs)
 
     - 실행: python 파일명.py
+    - 한 줄 삭제 : Ctrl + k
+    - 줄 복붙 : Ctrl + u
 
 - 실습
     - LED 
@@ -102,7 +104,25 @@ IoT 개발자과정 라즈베리파이 리포지토리
 
 - FND 세그먼트
     - 양극(COM1 - 3v3 / dp - GND)
-    - 1초마다 타이머 (FND.py)
+    - 1초마다 타이머 (FND01.py,)
 
+## 5일차
+- FND 세그먼트  
+    - 스위치 누를 때마다 1씩 증가(FND04.py)
+        - list 함수 사용(대괄호 사용)
+        ```
+         digit_patterns = [
+            [False, False, False, False, False, False, True],
+            [True, False, False, True, True, True, True],
+            ...
+         ]
+            try:
+                while True:
+                    if GPIO.input(Button) == True:
+                        GPIO.output(segments[0], digit_patterns[count][0])
+                        GPIO.output(segments[1], digit_patterns[count][1])
+                        ...
+        ```
+    - 
 
 
