@@ -129,3 +129,30 @@ IoT 개발자과정 라즈베리파이 리포지토리
     - 4자리 숫자 돌아가게(FND09.py)
     - 타이머 형식(FND11.py)
 
+- QuTy5
+    - 기본 틀
+        ```
+        import sys
+        from PyQt5.QtWidgets import *
+        from PyQt5 import uic
+
+        form_class = uic.loadUiType("./test01.ui")[0]
+
+        class WindowClass(QMainWindow, form_class):
+            def __init__(self):        # 생성자
+            super().__init__()
+            self.setupUi(self)
+
+
+        ```
+
+    - 이벤트 함수 등록
+        - Putty에서 
+            ```
+                self.버튼이름.버튼작용.connect(self.버튼함수이름)
+                -> self.btn_1.clicked.connect(self.btn1Function)
+            ```
+
+## 7일차
+- 평가
+    - 
