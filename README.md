@@ -122,7 +122,10 @@ IoT 개발자과정 라즈베리파이 리포지토리
                         GPIO.output(segments[0], digit_patterns[count][0])
                         GPIO.output(segments[1], digit_patterns[count][1])
                         ...
-        ```
-    - 
+        ``` 
 
+## 6일차
+- FND 세그먼트
+    - 4자리 숫자 돌아가게(FND09.py)
+    - 타이머 형식(FND11.py)
 
