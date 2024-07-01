@@ -130,7 +130,7 @@
        print("SENSOR OFF")
        time.sleep(0.2)
 
- # 버튼 누르면 blue_led 켜짐
+ # Relay 버튼 누르면 blue_led 켜짐
    def btn5Function(self):
      GPIO.output(relayPin,1)
      GPIO.output(blue_led, False)
