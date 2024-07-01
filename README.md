@@ -157,4 +157,8 @@ IoT 개발자과정 라즈베리파이 리포지토리
 - 평가
     - QtDesigner로 브레드보드에 연결시킨 장치들 작동시키기 (final01-02.py)
 
-    ![평가 이미지](https://raw.githubusercontent.com/qkrskdusdlqslek/basic-IoT-OpenHardware-platforms/main/day07/final02.png)
+    ![평가 이미지](https://raw.githubusercontent.com/qkrskdusdlqslek/basic-IoT-OpenHardware-platforms/main/day07/final03.png)
+
+## 8일차
+- 평가
+- 팀프로젝트
